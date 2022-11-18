@@ -1,3 +1,7 @@
 [submodule "project"]
 	path = project
 	url = git@github.com:henchaves/imt-cdaw-project.git
+[submodule "public/jalon2/project"]
+	path = public/jalon2/project
+	url = git@github.com:henchaves/imt-cdaw-project.git
+	branch = laravel-discovery
