@@ -1,33 +1,20 @@
-# Template project for CDAW
+# CDAW Course
 
-## Prerequisites
+## Project
 
-- git - https://git-scm.com/downloads
-- docker - https://docs.docker.com/get-docker/
-- vscode - https://code.visualstudio.com/
-- vscode remote container extension - https://code.visualstudio.com/docs/remote/containers
-- create a github account
+In order to get access to the updated version of the project, you must run the following commands after cloning this repository.
 
-## How to use this template?
-
-1. go to https://github.com/ceri-num/uv-cdaw-template
-2. click on the green button "use this template". This will create a similar git repository on your account
-3. clone your repository on your machine
-
+First step:
+```bash
+git submodule update
 ```
-git clone https://github.com/xxxx/uv-cdaw-template MyCDAWProject
+
+Second step:
+```bash
+cd project
 ```
-4. Open the project with VSCode and re-open it with remote container extesion (the 1st launch takes time)
 
-You should have:
-- Apache on http://localhost:5080
-- PhpMyAdmin on http://localhost:5081
-    2 mysql accounts: root/root and mysql/mysql
-
-Simple ``it works`` test: http://localhost:5080/test-pdo/test-PDO.php
-
-xdebug is installed so you can put breakpoints in your code.
-
-# Others links
-
-- https://www.section.io/engineering-education/dockerized-php-apache-and-mysql-container-development-environment/
+Third step:
+```
+git pull
+```
