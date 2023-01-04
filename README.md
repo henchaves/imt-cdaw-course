@@ -51,5 +51,7 @@ In order to properly start the app and initialize the database with already some
 #### 5.3. How to use
 Go to [http://localhost](http://localhost) and enjoy! 
 
+<br>
+
 #### 5.4. Stop the app
 Go to the `pokemon` folder, open the terminal and run `./vendor/bin/sail down`
