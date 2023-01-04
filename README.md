@@ -1,20 +1,30 @@
 # CDAW Course
-
 ## Project
+### 1. Context
+This web app was created following the [requirements](https://ceri-num.gitbook.io/uv-cdaw/infos/projet-pokemon) of the course _Conception et Développement d'Applications WEB_ at [IMT Nord Europe](https://imt-nord-europe.fr/en/). The objective is to develop an end-to-end web app to perform as a Pokémon game.
 
-#### Demonstration
+<br>
+
+### 2. Description
+Pokémon Battles is a web app developed using the [Laravel](https://laravel.com/) framework.
+
+<br>
+
+### 3. Requirements
+You must have installed (and running) on your machine:
+- [docker](https://docs.docker.com/get-docker/)
+- [docker compose](https://docs.docker.com/compose/install/)
+- [Composer (PHP)](https://getcomposer.org/download/)
+
+<br>
+
+### 4. Demonstration
 - [French version]()
 
 <br>
 
-#### Requirements
-1) [Docker](https://docs.docker.com/get-docker/)
-2) [docker compose](https://docs.docker.com/compose/install/)
-3) [Composer (PHP)](https://getcomposer.org/download/)
-
-<br>
-
-#### Get updated version
+### 5. How to run
+#### 5.1. Get updated version
 In order to get access to the updated version of the project, you must run the following commands on the terminal after cloning this repository.
 
 1) `git submodule init project`
@@ -25,7 +35,7 @@ In order to get access to the updated version of the project, you must run the f
 
 <br>
 
-#### Start the app and database
+#### 5.2. Start the app and database
 In order to properly start the app and initialize the database with already some data, you must run the following commands on the terminal.
 
 1) `cd pokemon`
@@ -38,8 +48,8 @@ In order to properly start the app and initialize the database with already some
 
 <br>
 
-#### How to use
+#### 5.3. How to use
 Go to [http://localhost](http://localhost) and enjoy! 
 
-#### Stop the app
+#### 5.4. Stop the app
 Go to the `pokemon` folder, open the terminal and run `./vendor/bin/sail down`
