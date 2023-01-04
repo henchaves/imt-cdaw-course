@@ -2,19 +2,15 @@
 
 ## Project
 
+#### Get updated version
 In order to get access to the updated version of the project, you must run the following commands after cloning this repository.
 
-First step:
-```bash
-git submodule update
-```
+1) `git submodule init project`
 
-Second step:
-```bash
-cd project
-```
+2) `git submodule update --remote`
 
-Third step:
-```
-git pull
-```
+3) `cd project`
+
+#### Start the project app
+
+#### How to use
