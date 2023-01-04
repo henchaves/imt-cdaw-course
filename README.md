@@ -19,7 +19,7 @@ You must have installed (and running) on your machine:
 <br>
 
 ### 4. Demonstration
-- [French version]()
+- [No-audio version](https://youtu.be/8VKs2ZoIsDA)
 
 <br>
 
