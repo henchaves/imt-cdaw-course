@@ -42,7 +42,7 @@ In order to properly start the app and initialize the database with already some
 
 2) `composer require laravel/sail --dev`
 
-3) `./vendor/bin/sail up`
+3) `./vendor/bin/sail up -d`
 
 4) `docker compose exec app sh ./database/migrate_and_seed.sh`
 
