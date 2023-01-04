@@ -42,4 +42,4 @@ In order to properly start the app and initialize the database with already some
 Go to [http://localhost](http://localhost) and enjoy! 
 
 #### Stop the app
-Go to the `pokemon`, open the terminal and run `./vendor/bin/sail down`.
+Go to the `pokemon`, open the terminal and run `./vendor/bin/sail down`
